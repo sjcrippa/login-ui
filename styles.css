@@ -90,10 +90,10 @@ body{
     background-color:teal
 }
 
-.login-form{
+.login-form > a{
     color: #216ce7;
     font-size: 0.9rem;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     margin-bottom: 6px;
     transition: all 0.375s;
@@ -105,7 +105,7 @@ body{
 
 @keyframes rotate{
     100%{
-        background-position: 30% 70%;
+        background-position: 15% 50%;
     }
 }
 
